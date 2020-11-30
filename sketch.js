@@ -21,28 +21,28 @@ function drawCardInputs(){
   strokeWeight(1);
   //Primeira fileira
   number1Input = createInput('');
-  number1Input.position(190, 50);
+  number1Input.position(190, 100);
   number1Input.style("width", "25px");
   number1Input.style("height", "20px");
   number1Input.value(1);
   number1Input.input(validateInput);
   
   number2Input = createInput('');
-  number2Input.position(230, 50);
+  number2Input.position(230, 100);
   number2Input.style("width", "25px");
   number2Input.style("height", "20px");
   number2Input.value(8);
   number2Input.input(validateInput);
   
   number3Input = createInput('');
-  number3Input.position(270, 50);
+  number3Input.position(270, 100);
   number3Input.style("width", "25px");
   number3Input.style("height", "20px");
   number3Input.value(14);
   number3Input.input(validateInput);
   
   number4Input = createInput('');
-  number4Input.position(310, 50);
+  number4Input.position(310, 100);
   number4Input.style("width", "25px");
   number4Input.style("height", "20px");
   number4Input.value(23);
@@ -50,28 +50,28 @@ function drawCardInputs(){
   
   //Segunda Fileira
   number5Input = createInput('');
-  number5Input.position(190, 100);
+  number5Input.position(190, 150);
   number5Input.style("width", "25px");
   number5Input.style("height", "20px");
   number5Input.value(2);
   number5Input.input(validateInput);
   
   number6Input = createInput('');
-  number6Input.position(230, 100);
+  number6Input.position(230, 150);
   number6Input.style("width", "25px");
   number6Input.style("height", "20px");
   number6Input.value(09);
   number6Input.input(validateInput);
   
   number7Input = createInput('');
-  number7Input.position(270, 100);
+  number7Input.position(270, 150);
   number7Input.style("width", "25px");
   number7Input.style("height", "20px");
   number7Input.value(15);
   number7Input.input(validateInput);
   
   number8Input = createInput('');
-  number8Input.position(310, 100);
+  number8Input.position(310, 150);
   number8Input.style("width", "25px");
   number8Input.style("height", "20px");
   number8Input.value(24);
@@ -79,28 +79,28 @@ function drawCardInputs(){
   
   //Terceira Fileira
   number9Input = createInput('');
-  number9Input.position(190, 150);
+  number9Input.position(190, 200);
   number9Input.style("width", "25px");
   number9Input.style("height", "20px");
   number9Input.value(3);
   number9Input.input(validateInput);
   
   number10Input = createInput('');
-  number10Input.position(230, 150);
+  number10Input.position(230, 200);
   number10Input.style("width", "25px");
   number10Input.style("height", "20px");
   number10Input.value(11);
   number10Input.input(validateInput);
   
   number11Input = createInput('');
-  number11Input.position(270, 150);
+  number11Input.position(270, 200);
   number11Input.style("width", "25px");
   number11Input.style("height", "20px");
   number11Input.value(20);
   number11Input.input(validateInput);
   
   number12Input = createInput('');
-  number12Input.position(310, 150);
+  number12Input.position(310, 200);
   number12Input.style("width", "25px");
   number12Input.style("height", "20px");
   number12Input.value(25);
@@ -108,21 +108,21 @@ function drawCardInputs(){
   
   //Quarta Fileira
   number13Input = createInput('');
-  number13Input.position(190, 200);
+  number13Input.position(190, 250);
   number13Input.style("width", "25px");
   number13Input.style("height", "20px"); 
   number13Input.value(7);
   number13Input.input(validateInput);
   
   number14Input = createInput('');
-  number14Input.position(230, 200);
+  number14Input.position(230, 250);
   number14Input.style("width", "25px");
   number14Input.style("height", "20px");
   number14Input.value(12);
   number14Input.input(validateInput);
   
   number15Input = createInput('');
-  number15Input.position(270, 200);
+  number15Input.position(270, 250);
   number15Input.style("width", "25px");
   number15Input.style("height", "20px");
   number15Input.value(22);
@@ -137,7 +137,7 @@ function drawButtons(){
  
   //Buttons Jogar/Auto
   buttonPlay = createButton('JOGAR');
-  buttonPlay.position(110, 290);
+  buttonPlay.position(110, 350);
   buttonPlay.style("width", "140px");
   buttonPlay.style("height", "50px");
   buttonPlay.style("background-color", "green");
@@ -146,7 +146,7 @@ function drawButtons(){
   
  
   buttonAutoPlay = createButton('Auto');
-  buttonAutoPlay.position(270, 290);
+  buttonAutoPlay.position(270, 350);
   buttonAutoPlay.style("width", "140px");
   buttonAutoPlay.style("height", "50px");
   buttonAutoPlay.style("background-color", "blue");
