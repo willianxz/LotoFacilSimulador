@@ -75,7 +75,7 @@ function drawCardInputs(){
   number8Input.style("width", "25px");
   number8Input.style("height", "20px");
   number8Input.value(24);
-  number7Input.input(validateInput);
+  number8Input.input(validateInput);
   
   //Terceira Fileira
   number9Input = createInput('');
